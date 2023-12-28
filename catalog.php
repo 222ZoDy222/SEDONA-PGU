@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    
   </head>
   <body>
     <?php 
@@ -106,12 +108,16 @@
                   </div>
                 </fieldset>
                 <div class="catalog-filter-buttons catalog-filter-group-right">
-                  <button class="button-blue button-submit" type="submit">Применить</button>
+                  <button class="button-blue button-submit" id="AjaxButton" type="button">Применить</button>
                   <button class="button-transparent button-reset" type="reset">Сбросить</button>
                 </div>
               </div>
           </form>
         </div>
+
+
+      <input type="text" id="findShit">
+
       </section>
 
       <section data-test="catalog" class="catalog-hotels">
@@ -226,4 +232,8 @@
       </a>
     </footer>
   </body>
+
+
+  <script src="Ajax_Jerk/ajaxRequest.js"></script>
+  <script src="scripts/CTRL_F.js"></script>
 </html>
