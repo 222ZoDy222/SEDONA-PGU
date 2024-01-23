@@ -7,6 +7,7 @@
     <link rel="icon" href="favicon.ico">
     <link rel="icon" type="image/png" href="images/favicon.png">
     
+
     
   </head>
   <body>
@@ -159,11 +160,14 @@
           </ul>
         </header>
         
-        <ul class="hotel-list">
+        <label for="name">Название гостиницы :</label>
+
+        <input type="text" id="nameHostel" name="nameHostel"/>
+        <ul class="hotel-list" id="hotel-list-id">
 
           <?php 
 
-            include 'ListHotels.php';
+            //include 'ListHotels.php';
 
             
           ?>
