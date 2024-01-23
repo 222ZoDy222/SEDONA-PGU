@@ -109,8 +109,8 @@
                   </div>
                 </fieldset>
                 <div class="catalog-filter-buttons catalog-filter-group-right">
-                  <button class="button-blue button-submit" id="AjaxButton" type="button">Применить</button>
-                  <button class="button-transparent button-reset" type="reset">Сбросить</button>
+                  <button class="button-blue button-submit" id="find_lab5" type="button">Применить</button>
+                  <button class="button-transparent button-reset" id="find_clear_lab5" type="reset">Сбросить</button>
                 </div>
               </div>
           </form>
